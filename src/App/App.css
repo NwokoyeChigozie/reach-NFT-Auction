@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
+.intro {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bkg {
+  border: 1px solid red important;
+}
+
+.participant-selector {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  gap: 10px;
+
+  /* padding: 5px; this */
+}
+
+.participant-selector > button {
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input[type="number"] {
+  font-size: calc(10px + 2vmin);
+  width: 4em;
+}
+
+/* button {
+  font-size: calc(10px + 2vmin);
+} */
+
+textarea {
+  font-size: calc(10px + 2vmin);
+}
+
+.ContractInfo {
+  font-size: calc(10px + 1vmin);
+  text-align: left;
+  width: 90vw;
+  height: 7em;
+  padding: 2vw;
+  overflow-x: scroll;
+  white-space: pre;
+}
+.header-class {
+  text-align: center;
+}
